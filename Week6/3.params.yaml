@@ -1,0 +1,7 @@
+num_nodes: 100
+connection_radius: 0.3
+xlim: [0, 10]
+ylim: [0, 10]
+start_node: 0
+goal_node: 99
+

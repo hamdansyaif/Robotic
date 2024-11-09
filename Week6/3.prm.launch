@@ -1,0 +1,6 @@
+<launch>
+    <node name="prm_node" pkg="prm_ros" type="prm.py" output="screen">
+        <param name="config_file" value="$(find prm_ros)/config/params.yaml"/>
+    </node>
+</launch>
+
