@@ -1,0 +1,11 @@
+cd Mastering-ROS-for-Robotics-Programming-Third-edition
+mkdir -p /ch4/src
+cp -r Mastering-ROS-for-Robotics-Programming-Third-edition/Chapter2/seven_dof_arm_gazebo /ch4/src
+
+cd ch4
+catkin_make
+source devel/setup.bash
+roslaunch seven_dof_arm_gazebo seven_dof_arm_control.launch
+
+Kalau mau file lain yg dibuka di folder launch, perintahnya seperti berikut:
+roslaunch seven_dof_arm_gazebo <nama_file.launch> #(sesuaikan nama filenya)
