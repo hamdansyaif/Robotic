@@ -1,6 +1,6 @@
 cd Mastering-ROS-for-Robotics-Programming-Third-edition
 mkdir -p /ch4/src
-cp -r Mastering-ROS-for-Robotics-Programming-Third-edition/Chapter2/seven_dof_arm_gazebo /ch4/src
+cp -r Mastering-ROS-for-Robotics-Programming-Third-edition/Chapter4/seven_dof_arm_gazebo /ch4/src
 
 cd ch4
 catkin_make
