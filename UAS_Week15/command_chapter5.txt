@@ -1,0 +1,18 @@
+cd Mastering-ROS-for-Robotics-Programming-Third-edition
+mkdir -p /ch5/src
+cp -r Mastering-ROS-for-Robotics-Programming-Third-edition/Chapter5/webots_demo_pkg /ch5/src
+
+cd ch5
+catkin_make
+source devel/setup.bash
+roscore
+
+Buka terminal baru
+source /opt/ros/noetic/setup.bash
+source ~/Mastering-ROS-for-Robotics-Programming-Third-edition/ch5/devel/setup.bash
+webots
+
+Buka file world ch5/src/webots_demo_pkg/scene/mobile_robot/e_puck_ros.wbt
+
+Jika ingin membuka world lain
+Buka file world ch5/src/webots_demo_pkg/scene/mobile_robot/<file_world_lain.wbt
